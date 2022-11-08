@@ -1,0 +1,13 @@
+n = int(input()) #영수증
+m = int(input())
+sums= 0
+for i in range(1 , m+1):
+    a , b = input().split()
+    a = int(a)
+    b = int(b)
+    c = a *b
+    sums += c
+if sums == n:
+        print('Yes')
+else:
+        print('No')
